@@ -1,0 +1,173 @@
+@media only screen and (min-width: 768px) {
+    .logo {
+        height: 36px;
+        width: 36px;
+        padding: 22px;
+    }
+    #buger-closer, #burger-open {
+        display: none;
+    }
+    .menu-options {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 0px;
+        right: 100px;
+    }
+    .menu-options li {
+        list-style-type: none;
+        padding: 12px 16px;
+        text-transform: uppercase;
+        background-color: transparent;
+        display: flex;
+    }
+    .menu-options-links {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 28px;
+        text-decoration: none;
+        color: #060a24;
+    }
+    /** ----- inicio ----- **/
+    .contenedor-inicio {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .titulo-inicio {
+        font-size: 64px;
+        letter-spacing: 0;
+        margin: 152px 200px 25px 200px;
+        padding: 0;
+    }
+    .punto-azul {
+        color: #0000EC;
+    }
+    .contenedor-inicio p {
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 24px;
+        width: 628px;
+        height: 48px;
+        margin-left: 200px;
+    }
+    .boton-inicio {
+        border: none;
+        margin: 56px 200px;
+    }
+    /** ----- episodios ----- **/
+    .contenedor-episodios::before {
+        clip-path: polygon(0% 14%, 100% 0%, 100% 86%, 0% 100%);
+        clip-path: polygon(0% 14%, 100% 0%, 100% 86%, 0% 100%);
+    }
+    .titulo-episodios {
+        font-size: 48px;
+        margin-top: 186px;
+        margin-bottom: 26px;
+        margin-left: 200px;
+    }
+    .select-episodios {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    .spotify {
+        width: 584px;
+        height: 300px;
+        padding: 0%;
+        margin-left: 72px;
+    }
+    /** ----- origen ----- **/
+    .contenedor-origen {
+        position: relative;
+    }
+    .contenedor-origen img {
+        width: 457.6px;
+        height: 660px;
+        transform: translate(200px, 64px);
+    }
+    #parrafo-origen {
+        width: 464px;
+        position: absolute;
+        right: 256px;
+        top: 339px;
+    }
+    /** ----- galeria ----- **/
+    .contenedor-galeria {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 64px;
+    }
+    .titulo-galeria {
+        width: 100%;
+        font-size: 48px;
+        margin: 0 759px 36px 200px;
+    }
+    .contenedor-galeria img {
+        width: 33%;
+    }
+    /** ----- topicos ----- **/
+    .contenedor-topicos {
+        flex-direction: row;
+        align-items: baseline;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 247px;
+    }
+    .titulo-topicos {
+        width: 100%;
+        font-size: 48px;
+        margin-left: 200px
+    }
+    .topicos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 29px;
+    }
+    .contenedor-topicos h4 {
+        font-family: "IBM Plex Sans", Bold;
+        font-size: 24px;
+        text-align: center;
+    }
+    /*----- Ultimas novedades ----- */
+    .contenedor-novedades::before {
+        clip-path: polygon(0% 29%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 29%, 100% 0%, 100% 100%, 0% 100%);
+        height: 519px;
+    }
+    .contenedor-novedades {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contenedor-novedades h3 {
+        font-size: 48px;
+        margin-bottom: 36px;
+        width: 100%;
+    }
+    .contenedor-novedades .boton-episodios {
+        padding: 16px 59px;
+        margin-bottom: 151px;
+        margin-left: 547px;
+    }
+    /*----- Footer-----*/
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 31px 100px;
+    }
+    footer .copyright {
+        font-size: 16px;
+        line-height: 28px;
+        margin: 0;
+    }
+    i {
+        padding: 28px;
+    }
+}

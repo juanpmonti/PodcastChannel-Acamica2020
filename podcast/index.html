@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/styletab.css">
+    <link rel="stylesheet" href="style/styledesk.css">
+    <script src="https://use.fontawesome.com/4eaa146f5f.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500|IBM+Plex+Sans:400,600&display=swap"
+        rel="stylesheet" />
+    <title>Podcast.CH</title>
+
+    <!--Comentarios: Las clases de este HTML estan escritas
+    en español (exepto el menu hamburguesa que es una transcripcion
+    de un tutorial mas la colaboracion de mis compañeros de grupo), entiendo que no forma parte de las buneas practicas pero
+    lo hice de esa manera para poder enterder lo que estaba haciendo con cada seccion.-->
+
+</head>
+
+
+
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <img class="logo" src="images/logo.svg" alt="">
+            <input type="checkbox" id="chk-nav-bar">
+            <ul class="menu-options">
+                <li><a class="menu-options-links" href="#Episodios">Episodios</a></li>
+                <li><a class="menu-options-links" href="#Origen">Nosotros</a></li>
+                <li><a class="menu-options-links" href="#Galeria">Entrevistas</a></li>
+                <li><a class="menu-options-links" href="#Topicos">Topicos</a></li>
+            </ul>
+            <label for="chk-nav-bar" id="burger-close" class="burger-close"><span>&#x2716;</span></label>
+            <label for="chk-nav-bar" id="burger-open"><span class="hamburger">☰</span></label>
+        </nav>
+    </header>
+
+    <div class="contenedor-inicio">
+        <h1 class="titulo-inicio">Hello <span style="text-decoration: line-through;">world</span> pale blue dot <span
+                class="punto-azul">.</span>
+        </h1>
+        <p class="parrafo-inicio">El portal de podcast que explora el mundo de la progracion y la tecnologia. Nuevos
+            episodios, todo los jueves cada 15 dias.</p>
+        <button type="button" class="boton-inicio"> CONOCÉ MÁS </button>
+    </div>
+
+
+    <div class="contenedor-episodios" id="Episodios">
+        <h3 class="titulo-episodios">Episodios</h3>
+        <div class="select-episodios">
+            <iframe class="spotify" src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"></iframe>
+            <iframe class="spotify" src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby"></iframe>
+            <iframe class="spotify" src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv"></iframe>
+            <iframe class="spotify" src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"></iframe>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="contenedor-origen">
+        <img src="images/phone.png" alt="">
+        
+        <div id="parrafo-origen">
+            <h2 class="titulo-origen" id="Origen">De donde venimos</h2>
+            <p class="parrafo-origen">Our posturings, our imagined self-importance, the delusion that we have some
+                privileged position in the Universe, are challenged by this point of pale light. <br><br>
+                Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
+                vastness,
+                there is no hint that help will come from elsewhere to save us from ourselves.</p>
+        </div>
+    </div>
+
+    <div class="contenedor-galeria" id="Galeria">
+        <h2 class="titulo-galeria">Invitadas/os estelares</h2>
+
+        <img src="images/grace-hopper.png" alt="Foto de Grace hopper">
+        <img src="images/Katie-Bouman.png" alt="Foto de Katie Bouman">
+        <img src="images/Margaret_Hamilton.png" alt="Foto de Margaret Hamilton">
+        <img src="images/An E.R.A.Univac 1103 computer in the 1950s.png" alt="An E.R.A.Univac 1103 computer in the 1950s">
+        <img src="images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+            alt="operators with an Eniac — the world’s first programmable general-purpose computer">
+        <img src="images/susan-kare.png" alt="Foto de Susan Kare">
+
+    </div>
+    <div class="contenedor-topicos" id="Topicos">
+        <h2 class="titulo-topicos">Algunos de nuestros temas</h2>
+        <div class="topicos">
+            <div class="apartado-remoto">
+                <img class="icono" src="images/icon1.svg" alt="">
+                <h4 class="remoto">Trabajo remoto</h4>
+            </div>
+            <div class="apartado-repensando">
+                <img class="icono" src="images/icon2.svg" alt="">
+                <h4 class="repensando">Repensando la <span class="line-break"></span> programación</h4>
+            </div>
+            <div class="apartado-bases">
+                <img class="icono" src="images/icon3.svg" alt="">
+                <h4 class="bases">Bases del código</h4>
+            </div>
+            <div class="apartado-seguridad">
+                <img class="icono" src="images/icon4.svg" alt="">
+                <h4 class="seguridad">Seguridad informática</h4>
+
+            </div>
+        </div>
+    </div>
+    <div class="contenedor-novedades">
+        <h3>¿Querés las últimas novedades?</h3>
+        <a href="#" class="boton-episodios">ESCUCHÁ LOS EPISODIOS</a>
+    </div>
+    <footer>
+        <p class="copyright">© 2019— Hello blue pale dot</p>
+        <div class="iconos-social">
+            <i class="fa fa-spotify"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-telegram"></i>
+        </div>
+    </footer>
+</body>
+
+
+</html>
